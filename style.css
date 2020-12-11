@@ -1,0 +1,799 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: auto;
+}
+
+body	{
+	background-color: #F4F4F4;
+}
+
+
+
+/* BASE -------------------------------------------------------------------- */
+
+#faixaI {
+	background-color: #E05338;
+	width: 	100%;
+	height: 5vh;
+	line-height: 5vh;
+	color: #ff0000;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 6px;
+}
+
+
+#iconsociais {
+	color: white;
+	font-size: 27px;
+	width: 50%;
+	float: right;
+	margin-right: 3%;
+	text-align: right;	
+}
+
+#iconsociais a {
+	color: white;
+}
+
+
+#novomodo {
+	float: left;
+	cursor: pointer;
+	background-color: transparent;
+	
+	color: white;
+}
+
+#novomodo button {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white; 
+	cursor: pointer;
+}
+#modo {
+	background-color: transparent;
+	
+	color: white;
+	float: right;
+	cursor: pointer;
+}
+
+#modo button {
+background-color: transparent;
+	color: white;
+	border: 1px solid white; 
+	cursor: pointer;
+}
+
+#conteudojs {
+	text-align: left;
+	width:90px;
+	margin-left: 3%;
+	margin-top: 3px;
+}
+#boxI {
+	width: auto;
+	height: 170px;
+	background-color: #EDEDED;
+	box-shadow: 2px 2px 8px 2px #888888;
+}
+
+#logo {
+	width: 250px;
+	height: 250px;
+	background-image: url(img/logo.png);
+	background-size: cover;	
+	background-repeat: no-repeat;
+	margin-left: calc(50% - (250px / 2));
+	margin-top: 1px;
+	
+}
+
+#logonoturno {
+	display: none;	
+	width: 250px;
+	height: 250px;
+	background-image: url(img/logonoturno.png);
+	background-size: cover;	
+	background-repeat: no-repeat;
+	margin-left: calc(50% - (250px / 2));
+	margin-top: 1px;	
+}
+
+.menunav {
+	float: 	left;	
+	width: calc(50% - (250px / 2));
+	height: 3vh;
+	line-height: 3vh;
+	color: 	black;
+	padding: 1px;
+	font-size: 	20px;
+	font-weight: bolder;
+	text-shadow: 0.015em 0.015em #333;
+	word-spacing: 6%;
+	text-align: center;
+	margin-top: 140px;
+}
+
+.menunav a { 
+	margin-right: 6%;
+	margin-left: 6%;
+	color: black;
+}
+
+#m2 {
+	float: 	right;
+}
+
+#area1 {
+	margin: 1%;
+	width: 	auto;
+	border: 1px solid #EDEDED; 
+	margin-top: 85px;
+}
+
+#att {
+	background-image: url(img/att3.png);
+	width: 100%;
+	height: 360px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+#att div {
+	color: 	white;
+	font-size: 	65px;
+	width: 	450px;
+	height: 250px;
+	float: 	left;	
+	text-align: center;	
+	margin-top: 55px;
+	padding: 10px;
+	margin-left: 7%;
+	background-color: 	rgba(28,28,28, 0.6);
+	text-shadow: black 0.05em 0.05em 0.1em;
+}
+
+#mensagem {
+	background-color: #E05338;
+	box-shadow: 2px 2px 8px 2px #888888;
+	height: 3vh;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	color: 	white;
+	padding: 1%;
+	text-align: center;
+}
+
+#att button {
+	color: white;
+	font-size: 25px;
+	background-color: transparent;
+	width: 35vh;
+	height: 8vh;
+	border: 3px solid white;
+	border-radius: 7%;
+	float: right;
+	margin-right: 4%;
+	margin-top: calc(290px - 8vh/2);
+	padding: 2px;
+}
+
+#hello	{
+	padding-left: 17%;
+	padding-right: 17%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	border-bottom: 1px solid #EDEDED;	
+	border-top: 1px solid #EDEDED;
+	background-color: 	white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+#recomenda {
+	width: 100%;
+	height: 30vh;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+
+.item1 {
+	width: 25%;
+	height: 100%;
+	margin-left: 8%;
+	display: inline-block;
+	float: left;
+	border-radius: 5%;	
+}
+
+.item2 {
+	width: 25%;
+	height: 100%;
+	margin-left: 5%;
+	display: inline-block;
+	border-radius: 5%;
+}
+
+
+.item3 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	display: inline-block;
+	border-radius: 5%;
+}
+
+#recomenda .item1 {
+	background-image: url(img/rec1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+
+#recomenda .item3{
+	background-image: url(img/rec2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#recomenda .item2{
+	background-image: url(img/rec3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+ .btnrecomenda {
+	color: white;
+	font-size: 15px;
+	background-color: transparent;
+	width: 20vh;
+	height: 5vh;
+	border: 3px solid white;
+	border-radius: 7%;
+	float: left;
+	margin-left: calc(50% - 20vh/2);
+	margin-top: calc(27vh - 5vh/2);
+	padding: 2px;
+}
+
+
+#info {
+	width: 	100%;
+	background-color: #D3D3D3;
+	box-shadow: 2px 2px 8px 2px #888888;
+	margin-top: 25px;
+	height: auto;
+}
+
+.boxinfo {
+	height: 25vh;
+	width: 100%;
+}
+
+.title {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #1C1C1C;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.title p {
+	color: white;
+	width: 50%;
+	height: 40px;
+	margin-left: 25%;
+	margin-top: 9%;
+}
+
+.corpo {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #363636;
+}
+
+.corpo p {
+	padding: 3vh;
+	text-align: justify;
+	color: white;
+	font-size: 17px;
+}
+
+#map {
+	float: right;
+}
+
+
+
+
+#form {
+	background-color: #F4F4F4;
+	box-shadow: 2px 2px 8px 2px #888888;
+	border: 2px solid black;
+	height: 80vh;
+}
+
+
+#right {
+	float: right;
+	width: 44%;
+	height: 80%;
+	padding: 3%;
+}
+
+
+#right h2 {
+	text-align: center;
+}
+
+
+#detalhes {
+	background-color: #E05338;
+	height: 5px;
+	width: 	20%;
+	margin-left: calc(50% - 20%/2);
+	border-radius: 	5%;
+	margin-bottom: 	8%;
+	margin-top: 3px;
+}
+
+.div {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 3%;
+	
+}
+
+#right input {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #EDEDED;
+	border-radius: 5%;
+	border: 2px solid black;
+}
+
+#enviar input {
+	background-color: #E05338;
+	margin-top: 100px;
+	height: 50px;
+	border-radius: 5%;
+	color: white;
+	
+}
+
+#right textarea {
+	width: 100%;
+	height: 100px;
+	border: 1px solid #EDEDED;
+	border: 2px solid black;
+}
+
+#left {
+	float: left;
+	background-image: url(img/telefone.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 100%;
+
+}
+
+/* DISCOS ----------------------------------------*/
+.discos {
+	width: 100%;
+	height: 220px;
+	margin-top: 3%;
+}
+
+.d1 {
+	background-color: black;
+	width: 25%;
+	height: 100%;
+	margin-left:7%;
+	display: inline-block;
+	float: left;
+	border-radius: 5%;
+}
+
+.d2 {
+	background-color: black;
+	width: 25%;
+	height: 100%;
+	margin-left: 5%;
+	display: inline-block;
+	border-radius: 5%;
+	
+}
+
+
+.d3 {
+	background-color: black;
+	width: 25%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	display: inline-block;
+	border-radius: 5%;
+	
+}
+
+#dd1 {
+	background-image: url(img/elisetomcapa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#dd2 {
+	background-image: url(img/darkside.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#dd3 {
+	background-image: url(img/beatles.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#dd4 {
+	background-image: url(img/embreve.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#dd5 {
+	background-image: url(img/embreve.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#dd6 {
+	background-image: url(img/embreve.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* POSTS -----------------------------------------*/
+.post {
+	padding: 2vh;
+	margin:  2vh;
+	border-bottom: 1px solid #EDEDED;
+	background-color: 	#C0C0C0;
+	padding: 1%;
+	border-bottom:  1px solid #EDEDED;	
+	text-decoration: none;	
+	color: 	black;
+}
+
+.post a {
+	text-decoration: 	none;	
+	color: 	black;
+}
+
+.postB a {
+	text-decoration: 	none;	
+	color: 	black;
+}
+
+.postB {
+	padding: 2vh;
+	margin:  2vh;
+	border-bottom: 1px solid #EDEDED;
+	background-color: #A9A9A9;
+	padding: 1%;
+	border-bottom:  1px solid #EDEDED;	
+	text-decoration: none;	
+	color: 	black;
+}
+
+/* AREA DE TEXTOS --------------------------------*/
+
+.blocodetitulo {
+	font-size: 40px;
+	background-color: #DCDCDC;
+	color: black;
+	padding: 3%;
+}
+
+.blocodetitulo p {
+	text-align: center;
+}
+
+.infotext {
+	font-size: 15px;
+	color: #696969;
+	margin-left: 2%;
+	text-align: left;
+	background-color: #DCDCDC;
+	padding: 4px;
+}
+
+.texto {
+	padding-right: 12%;
+	padding-left: 12%;
+	text-align: justify;
+	font-size: 18px; 
+	color: #1C1C1C
+}
+
+
+.imagemdecorpo  {
+	background-image: url(img/encarteelisetom.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	margin-top: 25px;
+}
+
+.infoimg {
+	font-size: 15px;
+	color: grey;
+	text-align: right;
+}
+
+#cita {
+	text-align: center;
+}
+
+footer {
+	width: 	auto;
+	height: 3vh;
+	background-color: #202020;
+	color: white;
+	text-align: center;
+	padding: 3%;
+	box-shadow: 2px 2px 8px 2px #888888;
+	margin-top: 3%;
+	position: relative;	
+}
+@media (min-width:991px){
+#menudnv {
+	display: none;
+}
+}
+
+@media (orientation: landscape){
+	#iconsociais {
+		margin-top: 3px;
+	}
+
+	#recomeda {
+		height: 20vh;
+	}
+
+	#form {
+		height: 80vh;
+	}
+}
+
+@media (max-width: 991px) { /* VERSÃO MOBILE --------------------------------------------- */
+
+#faixaI {
+	background-color: transparent;	
+	box-shadow: none;	
+	border-style: 0;
+	height: 0px;
+	margin-top: 0;
+	padding-top: 1px;
+}
+
+#iconsociais a {
+	color: black;
+	font-size: 	20px;
+}
+
+#boxI {
+	width: auto;
+	height: 130px;
+}
+
+#logo {
+	width: 130px;
+	height: 130px;
+	background-image: url(img/logo.png);
+	margin-left: calc(50% - (130px / 2));	
+}
+
+#logonoturno {
+	width: 130px;
+	height: 130px;
+	background-image: url(img/logonoturno.png);
+	margin-left: calc(50% - (130px / 2));	
+}
+
+
+#novomodo {
+	color: black;
+}
+
+#novomodo button {
+	color: black;
+	border: 1px solid black; 
+	
+}
+#modo {
+	color: black;
+}
+
+#modo button {
+background-color: transparent;
+	color: black;
+	border: 1px solid black; 
+	cursor: pointer;
+}
+
+#menudnv {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: #E05338;
+	padding-top: 	5px;
+	font-weight: bolder;
+	text-shadow: 0.015em 0.015em #333;
+	font-size: 	20px;
+}
+
+#menudnv a { 
+	margin-right: 4%;
+	margin-left: 4%;
+	color: white;
+}
+
+.menunav {
+	display: 	none;
+}
+
+#m2 {
+	display: none;	
+}
+
+#area1 {
+	margin-top: 40px;
+} 
+
+#att button {
+	display: 	none;	
+}
+
+#att div {
+	width: 	70%;
+	margin-left: 15%;
+}
+
+#hello {
+	font-size: 	15px;
+}
+
+#recomenda {
+	width: 100%;
+	height: 90vh;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 0;
+}
+
+.item1 {
+	width: 500px;
+	height: 30vh;
+	display: inline-block;
+	float: left;
+	margin-left: calc(50% - 250px);
+	border-radius: 0;	
+}
+
+.item2 {
+	width: 500px;
+	height: 30vh;
+	display: inline-block;
+	margin-left: calc(50% - 250px);
+	border-radius: 0;
+}
+
+.item3 {
+	width: 500px;
+	height: 30vh;
+	float: left;
+	display: inline-block;
+	margin-left: calc(50% - 250px);
+	border-radius: 0;
+}
+
+
+.boxinfo {
+	min-height: 25vh ;
+	max-height: 300vh;
+}
+
+.boxinfo .title {
+	display: none;
+}
+
+.boxinfo .corpo {
+	width: 100%;
+}
+
+
+#form {
+	margin-top: 10px;
+	height: 60vh;
+}
+
+#att p {
+	font-size: 80%;
+}
+
+#mensagem {
+	font-size: 90%;
+	height: auto;
+	line-height: 2vh;
+}
+
+
+.discos {
+	width: 100%;
+	height: 1100px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+.d1 {
+	background-color: black;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	margin-right: 25%;
+	display: inline-block;
+	float: left;
+	border-radius: 5%;
+}
+
+.d2 {
+	background-color: black;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	margin-right: 25%;
+	display: inline-block;
+	float: left;
+	border-radius: 5%;
+}
+
+.d3 {
+	background-color: black;
+	width: 50%;
+	height: 25%;
+	margin-left: 25%;
+	margin-right: 25%;
+	display: inline-block;
+	float: left;
+	border-radius: 5%;
+}
+
+}
+
+
